@@ -8,7 +8,7 @@ class BlogItem extends Component {
     const {id, title, imageUrl, avatarUrl, author, topic} = item
 
     return (
-      <Link className="link-style" to={`/blogs/:${id}`}>
+      <Link className="link-style" to={`/blogs/${id}`}>
         <div className="blog-item">
           <img className="image" src={imageUrl} alt="img" />
           <div className="blog-details">
